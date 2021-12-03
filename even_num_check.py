@@ -1,3 +1,4 @@
+#Created function which checks even number in list
 def check_even_list(num_list):
     for num in num_list:
         if num%2==0:
