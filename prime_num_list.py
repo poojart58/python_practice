@@ -6,9 +6,10 @@ def prime_list(num):
             if fin%fin2==0 and fin!=fin2:
                 prime=False
                 break
-            if fin%fin2!=0:
+            if fin % fin2!=0:
                 prime=True
                 continue
         if prime==True:
             ls.append(fin)
+            #learning git currently
     print(ls)
